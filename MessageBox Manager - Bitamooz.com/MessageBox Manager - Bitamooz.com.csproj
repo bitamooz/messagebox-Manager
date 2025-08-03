@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>MessageBox_Manager___Bitamooz.com</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>message-svgrepo-com.ico</ApplicationIcon>
+    <Company>Bitamooz.com</Company>
+    <Product>MessageBox Manager</Product>
+    <Description>پروژه بارگذاری شده در گنجینه برنامه نویسی سایت بیت آموز برای دوستان عزیز بیت آموزی:
+bitamooz.com</Description>
+    <PackageIcon>message-svgrepo-com.png</PackageIcon>
+    <PackageIconUrl />
+    <Authors>Abolfazl Enayati</Authors>
+    <Copyright>Copyright (C) 2025 BitAmooz. All Rights Reserved.</Copyright>
+    <PackageProjectUrl>https://bitamooz.com/programming-assets/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bitamooz</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\message-svgrepo-com.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
